@@ -1287,22 +1287,24 @@ To learn how this works, see http://wp.me/PEmnE-Bt
             </div>
 
             <div class="media no-push-bottom invert image-top medium content-vertical">
-
-
               <div class="media-body text-left">
-                <h5 class="heading">
-                  Comments </h5>
+                <h5 class="heading">Comments</h5>
                 <div class="excerpt">
                   <div role="form" class="wpcf7" id="wpcf7-f36-o1" dir="ltr" lang="en-GB">
                     <div class="screen-reader-response"></div>
-                    <form action="https://submit-form.com/815e3a5f-b7be-4036-b620-29fcf4935a45" method="post" class="wpcf7-form">
+                    <form name="contact" data-netlify="true" method="post" class="wpcf7-form">
                       <div style="display: none;">
                         <input type="hidden" name="sender" value="From the fireworks website">
                       </div>
-                      <p><label> Your Email<br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" required autocomplete="Enter your email address"></span> </label></p>
-                      <p><label> Your Message<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" required  autocomplete="Enter your message here"></textarea></span> </label></p>
+                      <p><label for="email">Your Email<br>
+    <span class="wpcf7-form-control-wrap your-email">
+      <input type="email" name="email" value="" size="40" 
+      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" 
+      aria-required="true" aria-invalid="false" required placeholder="your-email@address.com"></span> </label></p>
+                      <p><label for="message">Your Message<br>
+    <span class="wpcf7-form-control-wrap your-message">
+      <textarea name="message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" 
+      required  placeholder="Enter your message here"></textarea></span> </label></p>
                       <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"></p>
                       <div class="wpcf7-response-output wpcf7-display-none"></div>
                     </form>
